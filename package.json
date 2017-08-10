@@ -1,0 +1,14 @@
+{
+  "name": "spotimap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "nuxt": "^1.0.0-rc4"
+  }
+}
