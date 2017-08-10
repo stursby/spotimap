@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate"
+    "build": "nuxt generate",
+    "deploy": "surge dist/ --domain spotimap.surge.sh"
   },
   "dependencies": {
     "axios": "^0.16.2",

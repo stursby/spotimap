@@ -23,8 +23,9 @@ export default {
         client_id: '0901c43971624c42989d6aa92cb5e2e2',
         response_type: 'token',
         scope: 'user-top-read',
-        redirect_uri: 'http://localhost:3000/callback'
+        redirect_uri: `${window.location.origin}/callback`
       })
+      console.log(urlParams.redirect_uri)
       this.authURL = `${base}?${urlParams}`
     }
   },
